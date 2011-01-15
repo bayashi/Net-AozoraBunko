@@ -79,11 +79,8 @@ sub search_work {
     if (!$id && !$url) {
         out("Error: required id or url.");
     }
-    if ($id && !$url) {
-        $url = "http://www.aozora.gr.jp/index_pages/person$id.html";
-    }
 
-    my $results = Net::AozoraBunko->new->search_work($url, $keyword);
+    my $results = Net::AozoraBunko->new->search_work($id || $url, $keyword);
     my $num = @$results;
     unless (@$results) {
         out("sorry, [$keyword] did not match.");
