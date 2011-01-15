@@ -7,10 +7,12 @@
 ^#
 \.old$
 ^blib/
+^_build/
 ^cover_db/
 ^pm_to_blib
 ^MakeMaker-\d
 \.gz$
+\.gitignore
 \.cvsignore
 ^t/9\d_.*\.t
 ^t/perlcritic

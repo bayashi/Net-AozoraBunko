@@ -4,7 +4,6 @@ use warnings;
 use utf8;
 use Carp qw/croak/;
 
-use Scalar::Util qw/blessed/;
 use URI;
 use URI::Fetch;
 use LWP::UserAgent;
@@ -161,7 +160,7 @@ sub _get_works {
     if (ref $works->{list} eq 'ARRAY') {
         for my $work (@{$works->{list}}) {
             my $title = '';
-            my $url   = ''; # working
+            my $url   = '';
             if ($work =~ /^<a href/) {
                 ($url, $title) = ($work =~ m!<a href="([^"]+)">([^<]+)</a>!);
                 $url = URI->new_abs($url, $uri);
@@ -371,7 +370,7 @@ search works by a keyword from authors page.
 =head1 REPOSITORY
 
 C<Net::AozoraBunko> is hosted on github
-at L<http://github.com/bayashi/Net-AozoraBunko>
+L<http://github.com/bayashi/Net-AozoraBunko>
 
 
 =head1 AUTHOR

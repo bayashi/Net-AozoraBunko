@@ -14,7 +14,6 @@ my $builder = Module::Build->new(
     },
     requires => {
         'Carp'           => 0,
-        'Scalar::Util'   => 0,
         'URI'            => 0,
         'URI::Fetch'     => 0,
         'LWP::UserAgent' => 0,
@@ -24,7 +23,7 @@ my $builder = Module::Build->new(
     add_to_cleanup      => [ 'Net-AozoraBunko-*' ],
     meta_merge     => {
       resources => {
-        repository  => 'git://github.com/bayashi/Net-AozoraBunko.git'
+        repository  => 'http://github.com/bayashi/Net-AozoraBunko'
       }
     },
 );
