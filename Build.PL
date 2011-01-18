@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
         'LWP::UserAgent' => 0,
         'Encode'         => 0,
         'Web::Scraper'   => 0,
-        'Getopt::Compact::WithCmd' => 0,
+        'Getopt::Compact::WithCmd' => 0.12,
     },
     add_to_cleanup      => [ 'Net-AozoraBunko-*' ],
     meta_merge     => {

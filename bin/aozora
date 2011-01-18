@@ -16,7 +16,7 @@ my $go = Getopt::Compact::WithCmd->new(
             command_struct => {
                 author => {
                     args => 'keyword',
-                    desc => 'search author by keyword',
+                    desc => 'search an author by the keyword',
                 },
                 work => {
                     options    => [
@@ -24,12 +24,12 @@ my $go = Getopt::Compact::WithCmd->new(
                         [ [qw/u url/], "author's url", '=s', \my $url, { default => '' } ],
                     ],
                     args => 'keyword',
-                    desc => 'search author by keyword',
+                    desc => 'search a work by the keyword',
                 },
             },
         },
         download => {
-            desc => 'download text and print screen',
+            desc => 'download the text and print it on the screen',
             args => 'url',
         },
     },
