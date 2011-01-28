@@ -1,7 +1,8 @@
 Revision history for Perl extension Net::AozoraBunko
 
-0.0.2    Sat Jan 15 22:00:00 2011
+0.02    Sat Jan 15 01:01:01 2011
         - added command line interface 'aozora'
+        - fixed style of version
 
 0.0.1    Sat Jan 15 17:00:00 2011
         - original version
