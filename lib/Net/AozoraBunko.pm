@@ -364,6 +364,10 @@ search authors by a keyword
 
 search works by a keyword from authors page.
 
+=item ua
+
+get/set user agent object
+
 =back
 
 
