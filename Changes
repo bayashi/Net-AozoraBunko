@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::AozoraBunko
 
+0.03    Sat Oct 27 23:57:00 JST 2012
+    [No CODE CHANGE]
+        - support travis-ci.org(on github)
+        - fix README
+        - fix for kwalitee
+
 0.02    Sat Jan 15 01:01:01 2011
         - added command line interface 'aozora'
         - fixed style of version

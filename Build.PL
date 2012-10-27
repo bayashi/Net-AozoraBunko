@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
         'YAML'        => 0,
     },
     requires => {
+        'perl'           => '5.8.8',
         'Carp'           => 0,
         'URI'            => 0,
         'URI::Fetch'     => 0,
