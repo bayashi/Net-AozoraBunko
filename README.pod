@@ -4,7 +4,7 @@ This is Perl module B<Net::AozoraBunko>.
 
 =begin html
 
-<a href="http://travis-ci.org/bayashi/Net-AozoraBunko"><img src="https://secure.travis-ci.org/bayashi/Net-AozoraBunko.png"/></a>
+<a href="http://travis-ci.org/bayashi/Net-AozoraBunko"><img src="https://secure.travis-ci.org/bayashi/Net-AozoraBunko.png"/></a> <a href="https://coveralls.io/r/bayashi/Net-AozoraBunko"><img src="https://coveralls.io/repos/bayashi/Net-AozoraBunko/badge.png?branch=master"/></a>
 
 =end html
 
