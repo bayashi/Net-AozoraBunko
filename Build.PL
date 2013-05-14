@@ -7,6 +7,9 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/Net/AozoraBunko.pm',
+    configure_requires  => {
+        'Module::Build' => 0.38
+    },
     build_requires      => {
         'Test::More'  => 0.88,
         'LWP::Online' => 0,

@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::AozoraBunko
 
+0.04    Tue May 14 10:01:02 JST 2013
+    [Bug Fix]
+        - changed encoding for HTML of Aozora-Bunko: euc-jp -> utf8
+    [Improvement]
+        - run all tests under Travis-ci
+
 0.03    Sat Oct 27 23:57:00 JST 2012
     [No CODE CHANGE]
         - support travis-ci.org(on github)

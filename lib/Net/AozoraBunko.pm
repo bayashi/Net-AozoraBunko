@@ -10,7 +10,7 @@ use LWP::UserAgent;
 use Encode qw/decode/;
 use Web::Scraper;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my $DOMAIN = 'http://www.aozora.gr.jp';
 my $PAGES = {
