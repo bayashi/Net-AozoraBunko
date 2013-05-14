@@ -16,7 +16,7 @@ my $SAMPLE_WORK_URL = 'http://www.aozora.gr.jp/cards/000058/card1198.html';
 # 芥川 竜之介
 my $SAMPLE_AUTHOR_URL = 'http://www.aozora.gr.jp/index_pages/person879.html';
 
-unless( $ENV{TEST_AOZORA} ) {
+unless ( $ENV{TEST_AOZORA} || $ENV{TRAVIS} ) {
     plan( skip_all => "Please set \$ENV{TEST_AOZORA}, and run test $0" );
 }
 

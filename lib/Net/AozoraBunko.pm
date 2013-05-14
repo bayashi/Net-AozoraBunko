@@ -21,7 +21,7 @@ my $PAGES = {
 };
 
 my $ENCODE = {
-    html => 'euc-jp',
+    html => 'utf8',
     text => 'cp932',
 };
 
