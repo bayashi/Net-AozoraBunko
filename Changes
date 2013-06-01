@@ -1,5 +1,10 @@
 Revision history for Perl extension Net::AozoraBunko
 
+0.05    Sun Jun  2 00:54:35 JST 2013
+    [No CODE CHANGE]
+        - added prereq modules in Build.PL
+        - added META.json to git repos
+
 0.04    Tue May 14 10:01:02 JST 2013
     [Bug Fix]
         - changed encoding for HTML of Aozora-Bunko: euc-jp -> utf8
