@@ -24,6 +24,8 @@ my $builder = Module::Build->new(
         'Encode'         => 0,
         'Web::Scraper'   => 0,
         'Getopt::Compact::WithCmd' => 0.13,
+        'IO::Uncompress::Unzip' => 0,
+        'IO::String' => 0,
     },
     add_to_cleanup      => [ 'Net-AozoraBunko-*' ],
     script_files        => [ 'bin/aozora' ],
